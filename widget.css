@@ -1,0 +1,120 @@
+#inceptBorder{
+	border : 1px solid red;
+	display : none;
+	height : 0;
+	left : 0;
+	pointer-events : none;
+	position : fixed;
+	top  : 0;
+	width : 0;
+	z-index : 999998;
+}
+#inceptPanel{
+	background : #fff;
+	border-radius : .3em;
+	box-shadow : 1px 1px 5px rgba(0,0,0,0.3);
+	box-sizing : border-box;
+	color : rgb(98, 186, 202);
+	display : none;
+	font-size : 10px;
+	left : 0;
+	padding : 5px;
+	pointer-events : none;
+	position : fixed;
+	top  : 0;
+	z-index : 999999;
+}
+#inceptMenu{
+	display : none;
+	font-family : sans-serif;
+	grid-auto-columns : 20px;
+	grid-auto-rows : 20px;
+	grid-template-areas : "a b c" "d e f" "g h i";
+	height : 60px;
+	left : 0;
+	list-style-type : none;
+	margin : -30px 0 0 -30px;
+	padding : 0;
+	position : fixed;
+	top : 0;
+	width : 60px;
+	z-index : 9999999
+}
+#inceptMenu > .inceptBtn{
+	background : #dead23;
+	box-shadow : 1px 1px 3px rgba(0,0,0,0.2);
+	color : #fff;
+	cursor : pointer;
+	border-radius : 50%;
+	font-size : 12px;
+	font-weight : 700;
+	line-height : 20px;
+	text-align : center;
+	height : 20px;
+	width : 20px;
+}
+.scroll{
+	overflow: hidden;
+}
+.scroll:hover{
+	overflow-y: auto;
+}
+.scroll:focus{
+	overflow-y: auto;
+}
+.scroll:active{
+	overflow-y: auto;
+}
+.scroll::-webkit-scrollbar{
+	background: #e8e8e863;
+	border-style: none;
+	width: .3em;
+}
+.scroll::-webkit-scrollbar-track {
+	background: transparent;
+	border-style: none;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.2);
+}
+.scroll::-webkit-scrollbar-thumb {
+	background: rgba(0, 0, 0, 0.3);
+	border: 1px solid rgba(0, 0, 0, 0.05);
+}
+#inceptManager{
+	background: #112120;
+	border-radius: .3em;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+	box-sizing: border-box;
+	font-family: Helvetica;
+	list-style-type: none;
+	max-height: 80%;
+	max-width: 200px;
+	overflow: auto;
+	padding: 10px;
+	position: fixed;
+	right: 20px;
+	top: 20px;
+	z-index: 99999;
+
+}
+#inceptManager:before{
+	border-bottom: 1px solid #41ccc2;
+	color: #41ccc2;
+	content: attr(title);
+	display: block;
+	font-weight: 700;
+	margin-bottom: 10px;
+	padding: 5px 0;
+	text-align: center;
+	word-spacing: 1px;
+}
+#inceptManager > .item_list{
+	background: #174441;
+	border-radius: 5em;
+	box-sizing: border-box;
+	color: #20b1a7;
+	cursor: pointer;
+	font-size: 10px;
+	margin: 0 0 3px 0;
+	padding: 4px 5px;
+	text-align: center; 
+}
