@@ -5,7 +5,8 @@ An chrome extention for block advertise on website.
 ## Instalation
 
 * [Download ADBlocker.zip](https://github.com/leonardoherfianto/Blocker/zipball/master)
- Clone the repo :
+
+* Clone the repo :
 ```
 git clone git://github.com/leonardoherfianto/Blocker.git
 ```
