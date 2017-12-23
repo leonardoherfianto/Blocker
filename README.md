@@ -1,6 +1,6 @@
 # Blocker
 
-An chrome extention for block advertise on website.
+An chrome extension for block advertise on website.
 
 ## Instalation
 
@@ -10,11 +10,11 @@ An chrome extention for block advertise on website.
 ```
 git clone git://github.com/leonardoherfianto/Blocker.git
 ```
-After you download the ADBlocker extention, extract and install to your chrome.
+After you download the ADBlocker extension, extract and install to your chrome.
 
 ### How To Use
 
-* Click on popup icon to active/deactive your blocker extention.
+* Click on popup icon to active/deactive your blocker extension.
 * Short-key :
 ```
 Inceptor-Mode (ctrl + I)
@@ -27,5 +27,5 @@ Release-Action --> select item and click on Manager Data to release Blocker-Acti
 
 Blocker-Page (ctrl + Q)
 
-Release-Page --> deactive extention and open blocker site press again ctrl + Q to release.
+Release-Page --> deactive extension and open blocker site press again ctrl + Q to release.
 ```
